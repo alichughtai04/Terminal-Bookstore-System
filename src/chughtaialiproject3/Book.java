@@ -33,6 +33,6 @@ public class Book extends Product
     }
     @Override
     public String toCSV() {
-        return getProductID() + ",book," + getTitle() + "," + getAuthorArtist() + "," + "," + getNumInStock() + getPrice();
+        return getProductID() + ",book," + getTitle() + "," + getAuthorArtist() + "," + getNumInStock() + "," + getPrice();
     }
 }

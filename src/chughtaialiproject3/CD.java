@@ -31,7 +31,7 @@ public class CD extends Product
         return "CD: " + "productID: " + getProductID() + ", title: " + getTitle() + ", Author/Artist: " + getAuthorArtist() + ", price: $" + getPrice() + ", Stock: " + getNumInStock() + '}';     
     }
     public String toCSV() {
-        return getProductID() + ",cd," + getTitle() + "," + getAuthorArtist() + "," + "," + getNumInStock() + getPrice();
+        return getProductID() + ",cd," + getTitle() + "," + getAuthorArtist() + "," + getNumInStock() + "," + getPrice();
     }
       
 } //end class

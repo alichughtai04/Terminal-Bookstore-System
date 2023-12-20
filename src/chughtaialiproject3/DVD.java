@@ -28,7 +28,7 @@ public class DVD extends Product
     }
     @Override
     public String toCSV() {
-        return getProductID() + ",dvd," + getTitle() + "," + getAuthorArtist() + "," + "," + getNumInStock() + getPrice();
+        return getProductID() + ",dvd," + getTitle() + "," + getAuthorArtist() + "," + getNumInStock() + "," + getPrice();
     }
 }
 

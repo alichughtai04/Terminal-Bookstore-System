@@ -1,0 +1,9 @@
+*****************
+Days End Report
+*****************
+
+DVDs sold: 1
+CDs sold: 0
+Books sold: 0
+Total sale amount: $13.51
+*****************
